@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolioThivya/static/css/main.5ecbda81.css",
+    "main.js": "/portfolioThivya/static/js/main.2b8d1f93.js",
+    "static/js/671.f0a11027.chunk.js": "/portfolioThivya/static/js/671.f0a11027.chunk.js",
+    "service-worker.js": "/portfolioThivya/service-worker.js",
+    "index.html": "/portfolioThivya/index.html",
+    "main.5ecbda81.css.map": "/portfolioThivya/static/css/main.5ecbda81.css.map",
+    "main.2b8d1f93.js.map": "/portfolioThivya/static/js/main.2b8d1f93.js.map",
+    "671.f0a11027.chunk.js.map": "/portfolioThivya/static/js/671.f0a11027.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ecbda81.css",
+    "static/js/main.2b8d1f93.js"
+  ]
+}
