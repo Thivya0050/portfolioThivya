@@ -1,0 +1,28 @@
+.floating-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 90;
+  padding: 0.85rem 1.35rem;
+  background: linear-gradient(135deg, var(--purple), var(--pink));
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 999px;
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.45);
+  animation: float 3s ease-in-out infinite;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.floating-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 12px 40px rgba(124, 58, 237, 0.55);
+}
+
+@media (max-width: 768px) {
+  .floating-btn {
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.88rem;
+    padding: 0.75rem 1.1rem;
+  }
+}

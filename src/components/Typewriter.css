@@ -1,0 +1,11 @@
+.typewriter {
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  color: var(--purple-light);
+  min-height: 1.6em;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.typewriter-cursor {
+  color: var(--purple);
+  animation: blink 1s step-end infinite;
+}
