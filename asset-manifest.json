@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolioThivya/static/css/main.f21fcebe.css",
-    "main.js": "/portfolioThivya/static/js/main.7099e9ed.js",
-    "static/js/671.f0a11027.chunk.js": "/portfolioThivya/static/js/671.f0a11027.chunk.js",
-    "service-worker.js": "/portfolioThivya/service-worker.js",
+    "main.css": "/portfolioThivya/static/css/main.d8fc895a.css",
+    "main.js": "/portfolioThivya/static/js/main.39dcce5b.js",
+    "static/media/robort_arm_project.mp4": "/portfolioThivya/static/media/robort_arm_project.e4f7fd8b1b2c89b040b6.mp4",
+    "static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.mp4": "/portfolioThivya/static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.0727c6b8786e739c5837.mp4",
+    "static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.mp4": "/portfolioThivya/static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.c12bfcc19f575a2d4ebe.mp4",
+    "static/media/gig.png": "/portfolioThivya/static/media/gig.90010f6b4f8287db55f1.png",
+    "static/media/sabas2.png": "/portfolioThivya/static/media/sabas2.84f210ca49c37b211fc3.png",
+    "static/media/sabas4.png": "/portfolioThivya/static/media/sabas4.6ecf9cee9654201a2ef7.png",
+    "static/media/sabas3.png": "/portfolioThivya/static/media/sabas3.6161ae3179503c0ddf84.png",
+    "static/media/profile.jpg": "/portfolioThivya/static/media/profile.8a33cde5ca7fca789e72.jpg",
+    "static/media/sabas1.png": "/portfolioThivya/static/media/sabas1.86e294a43effd2a1997d.png",
+    "static/media/rainwater_optimizer_landscape.png": "/portfolioThivya/static/media/rainwater_optimizer_landscape.47de163230e3e2cabef6.png",
+    "static/media/ai_chatbox.png": "/portfolioThivya/static/media/ai_chatbox.04460089c5097b577357.png",
     "index.html": "/portfolioThivya/index.html",
-    "main.f21fcebe.css.map": "/portfolioThivya/static/css/main.f21fcebe.css.map",
-    "main.7099e9ed.js.map": "/portfolioThivya/static/js/main.7099e9ed.js.map",
-    "671.f0a11027.chunk.js.map": "/portfolioThivya/static/js/671.f0a11027.chunk.js.map"
+    "main.d8fc895a.css.map": "/portfolioThivya/static/css/main.d8fc895a.css.map",
+    "main.39dcce5b.js.map": "/portfolioThivya/static/js/main.39dcce5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21fcebe.css",
-    "static/js/main.7099e9ed.js"
+    "static/css/main.d8fc895a.css",
+    "static/js/main.39dcce5b.js"
   ]
 }
