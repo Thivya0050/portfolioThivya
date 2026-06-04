@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioThivya/static/css/main.8015dc36.css",
-    "main.js": "/portfolioThivya/static/js/main.6818e345.js",
+    "main.js": "/portfolioThivya/static/js/main.f8c172ee.js",
     "static/media/robort_arm_project.mp4": "/portfolioThivya/static/media/robort_arm_project.e4f7fd8b1b2c89b040b6.mp4",
     "static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.mp4": "/portfolioThivya/static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.0727c6b8786e739c5837.mp4",
     "static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.mp4": "/portfolioThivya/static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.c12bfcc19f575a2d4ebe.mp4",
@@ -18,13 +18,18 @@
     "static/media/jejak_2.png": "/portfolioThivya/static/media/jejak_2.1d81b7008c888b4a6b89.png",
     "static/media/cerita_2.png": "/portfolioThivya/static/media/cerita_2.4c3bc375145472b02fa2.png",
     "static/media/kerja_cart2.png": "/portfolioThivya/static/media/kerja_cart2.1bcb3004bf6736160f2a.png",
+    "static/media/2main_hm.webp": "/portfolioThivya/static/media/2main_hm.4e6508cadecd4bb9ea2f.webp",
+    "static/media/3main_hm.webp": "/portfolioThivya/static/media/3main_hm.4e6508cadecd4bb9ea2f.webp",
+    "static/media/4_hm.webp": "/portfolioThivya/static/media/4_hm.4e6508cadecd4bb9ea2f.webp",
+    "static/media/main_hm.webp": "/portfolioThivya/static/media/main_hm.4e6508cadecd4bb9ea2f.webp",
+    "static/media/map_hm.webp": "/portfolioThivya/static/media/map_hm.4e6508cadecd4bb9ea2f.webp",
     "static/media/ai_chatbox.png": "/portfolioThivya/static/media/ai_chatbox.04460089c5097b577357.png",
     "index.html": "/portfolioThivya/index.html",
     "main.8015dc36.css.map": "/portfolioThivya/static/css/main.8015dc36.css.map",
-    "main.6818e345.js.map": "/portfolioThivya/static/js/main.6818e345.js.map"
+    "main.f8c172ee.js.map": "/portfolioThivya/static/js/main.f8c172ee.js.map"
   },
   "entrypoints": [
     "static/css/main.8015dc36.css",
-    "static/js/main.6818e345.js"
+    "static/js/main.f8c172ee.js"
   ]
 }
