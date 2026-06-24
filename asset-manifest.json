@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioThivya/static/css/main.019c8614.css",
-    "main.js": "/portfolioThivya/static/js/main.c70627c0.js",
+    "main.js": "/portfolioThivya/static/js/main.9565ed81.js",
     "static/media/robort_arm_project.mp4": "/portfolioThivya/static/media/robort_arm_project.e4f7fd8b1b2c89b040b6.mp4",
     "static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.mp4": "/portfolioThivya/static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.0727c6b8786e739c5837.mp4",
     "static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.mp4": "/portfolioThivya/static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.c12bfcc19f575a2d4ebe.mp4",
@@ -31,10 +31,10 @@
     "static/media/pos_orders.png": "/portfolioThivya/static/media/pos_orders.5917a53229ae3c989a8e.png",
     "index.html": "/portfolioThivya/index.html",
     "main.019c8614.css.map": "/portfolioThivya/static/css/main.019c8614.css.map",
-    "main.c70627c0.js.map": "/portfolioThivya/static/js/main.c70627c0.js.map"
+    "main.9565ed81.js.map": "/portfolioThivya/static/js/main.9565ed81.js.map"
   },
   "entrypoints": [
     "static/css/main.019c8614.css",
-    "static/js/main.c70627c0.js"
+    "static/js/main.9565ed81.js"
   ]
 }
