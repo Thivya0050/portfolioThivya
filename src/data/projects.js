@@ -7,6 +7,17 @@ import {
   robotVideo,
   pushupVideo,
   emotionVideo,
+  kerjaCart1,
+  kerjaCart2,
+  cerita1,
+  cerita2,
+  jejak1,
+  jejak2,
+  posLogin,
+  posCashier,
+  posProducts,
+  posOrders,
+  posReports,
 } from './projectMedia';
 
 export const FILTERS = [
@@ -15,6 +26,7 @@ export const FILTERS = [
   { id: 'python', label: 'Python' },
   { id: 'saas', label: 'SaaS/IoT' },
   { id: 'fullstack', label: 'Full-Stack' },
+  { id: 'nextjs', label: 'Next.js' },
 ];
 
 export const projects = [
@@ -36,6 +48,7 @@ export const projects = [
       'Energy monitoring, health scoring & automated reporting',
     ],
     tags: ['Python', 'SaaS', 'IoT', 'Multi-tenant', 'Real-time', 'Firebase'],
+    repoNote: '🔒 Codebase is confidential — available for demo upon request',
   },
   {
     id: 'robotic-arm',
@@ -55,6 +68,7 @@ export const projects = [
       'Real-time 3D simulation with visual feedback',
     ],
     tags: ['Python', 'MediaPipe', 'OpenCV', '3D Simulation', 'Computer Vision'],
+    repoNote: '🔒 Private repo — live demo available upon request',
   },
   {
     id: 'sabas',
@@ -74,6 +88,7 @@ export const projects = [
       'Multi-role analytics dashboards',
     ],
     tags: ['Python', 'Flask', 'OpenCV', 'IoT', 'Firebase', 'Face Recognition'],
+    repoNote: '🔒 Private repo — live demo available upon request',
   },
   {
     id: 'chatbot',
@@ -93,6 +108,7 @@ export const projects = [
       'Real-time speech recognition API',
     ],
     tags: ['Python', 'MediaPipe', 'Gemini AI', 'Speech Recognition'],
+    repoNote: '🔒 Private repo — live demo available upon request',
   },
   {
     id: 'aesapp',
@@ -112,6 +128,7 @@ export const projects = [
       'Worker + employer dashboards',
     ],
     tags: ['JavaScript', 'Firebase', 'HTML', 'CSS', 'Full-Stack'],
+    repoNote: '🔒 Private repo — live demo available upon request',
   },
   {
     id: 'rainwater',
@@ -131,6 +148,7 @@ export const projects = [
       'Malaysia-specific optimization logic',
     ],
     tags: ['React.js', 'Node.js', 'MongoDB', 'Express', 'Material-UI'],
+    githubUrl: 'https://github.com/Thivya0050/rainwater-harvesting-optimizer',
   },
   {
     id: 'pushup',
@@ -150,6 +168,7 @@ export const projects = [
       'Webcam-only, no hardware needed',
     ],
     tags: ['Python', 'OpenCV', 'Pose Detection', 'Computer Vision'],
+    githubUrl: 'https://github.com/Thivya0050/Powered-Push-Up-Counter-with-Pose-Detection',
   },
   {
     id: 'emotion',
@@ -169,6 +188,88 @@ export const projects = [
       'Deep learning model integration',
     ],
     tags: ['Python', 'OpenCV', 'Deep Learning', 'Computer Vision'],
+    repoNote: '🔒 Private repo — live demo available upon request',
+  },
+  {
+    id: 'kerjacart',
+    title: 'KerjaCart',
+    subtitle: 'Smart Grocery Budget Tracker',
+    badge: 'AI · Mobile App',
+    badgeColor: 'green',
+    featured: false,
+    categories: ['ai', 'fullstack', 'nextjs'],
+    mediaType: 'slideshow',
+    media: [kerjaCart1, kerjaCart2],
+    description:
+      'A mobile-first grocery budget tracker built for Malaysian shoppers. Add items by voice or typing, track spending in real time against your monthly budget, and get AI-generated spending audits in casual Malaysian English.',
+    highlights: [
+      'Voice input with Malaysian English support',
+      'AI spending audit powered by Claude in casual Malaysian English',
+      'Monthly session history with under/over budget tracking',
+    ],
+    tags: ['Next.js 14', 'Supabase', 'Claude API', 'Web Speech API', 'Tailwind CSS', 'Vercel'],
+    repoNote: '🔒 Private repo — live demo available upon request',
+  },
+  {
+    id: 'jejak',
+    title: 'Jejak',
+    subtitle: 'SEA Career Guidance Platform',
+    badge: 'AI · Career Platform',
+    badgeColor: 'purple',
+    featured: false,
+    categories: ['ai', 'fullstack', 'nextjs'],
+    mediaType: 'slideshow',
+    media: [jejak1, jejak2],
+    description:
+      'A career guidance platform built for Malaysians and Southeast Asians post-SPM. Includes a path finder quiz, step-by-step career roadmaps, an AI advisor that speaks Malaysian English, and a scam detector for job offers.',
+    highlights: [
+      'AI career advisor with Malaysian English tone and local market knowledge',
+      'Scam detector — paste any job offer and get instant risk score with red flags',
+      '5-question path finder quiz with live career match prediction',
+    ],
+    tags: ['Next.js 14', 'Supabase', 'Claude API', 'Tailwind CSS', 'Vercel'],
+    repoNote: '🔒 Private repo — live demo available upon request',
+  },
+  {
+    id: 'cerita',
+    title: 'Cerita',
+    subtitle: 'Voice-First Knowledge Sharing Platform',
+    badge: 'AI · Social Platform',
+    badgeColor: 'pink',
+    featured: false,
+    categories: ['ai', 'fullstack', 'nextjs'],
+    mediaType: 'slideshow',
+    media: [cerita1, cerita2],
+    description:
+      'A voice-first social platform where Malaysians share real, useful knowledge in 60–90 second audio clips. Think micro-podcast meets social feed — every story must end with one verifiable fact.',
+    highlights: [
+      'In-browser audio recording up to 90 seconds with live waveform visualiser',
+      'Mandatory key fact on every story — enforces content quality',
+      'Category-coloured audio cards — Money, Food, Life skills, Local tips',
+    ],
+    tags: ['Next.js 14', 'Supabase', 'Claude API', 'MediaRecorder API', 'Tailwind CSS', 'Vercel'],
+    repoNote: '🔒 Private repo — live demo available upon request',
+  },
+  {
+    id: 'pos-system',
+    title: 'POS System',
+    subtitle: 'Point of Sale for F&B & Retail Businesses',
+    badge: 'Full-Stack · Live',
+    badgeColor: 'green',
+    featured: false,
+    categories: ['fullstack', 'saas'],
+    mediaType: 'slideshow',
+    media: [posLogin, posCashier, posProducts, posOrders, posReports],
+    description:
+      'A modern, full-stack POS system built for Malaysian F&B and retail businesses. Replaces manual cash registers with a complete digital solution — live on Netlify with Supabase PostgreSQL as the backend.',
+    highlights: [
+      'Cashier screen with cart, discounts & multiple payment methods (Cash, Card, Touch n Go, QR)',
+      'Product inventory management with stock level tracking and low stock alerts',
+      'Sales analytics dashboard with revenue charts and best-selling product ranking',
+    ],
+    tags: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL', 'Netlify'],
+    liveUrl: 'https://pos-system-my.netlify.app',
+    githubUrl: 'https://github.com/Thivya0050/pos-system',
   },
 ];
 

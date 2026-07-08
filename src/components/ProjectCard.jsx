@@ -129,6 +129,36 @@ function ProjectCard({ project }) {
             </span>
           ))}
         </div>
+
+        {(project.liveUrl || project.githubUrl || project.repoNote) && (
+          <div className="pcard-links">
+            {project.liveUrl && (
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="pcard-link-btn pcard-live"
+                onClick={(e) => e.stopPropagation()}
+              >
+                🌐 Live Demo
+              </a>
+            )}
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="pcard-link-btn pcard-github"
+                onClick={(e) => e.stopPropagation()}
+              >
+                🐙 GitHub
+              </a>
+            )}
+            {project.repoNote && (
+              <span className="pcard-repo-note">{project.repoNote}</span>
+            )}
+          </div>
+        )}
       </div>
     </article>
   );

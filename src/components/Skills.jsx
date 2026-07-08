@@ -17,8 +17,15 @@ function Skills() {
               </div>
               <div className="skills__pills">
                 {group.skills.map((skill) => (
-                  <span key={skill} className="skills__pill">
-                    {skill}
+                  <span key={skill.name} className="skills__pill">
+                    {skill.devicon ? (
+                      <i className={skill.devicon} aria-hidden="true" />
+                    ) : (
+                      <span className="skills__pill-emoji" aria-hidden="true">
+                        {skill.emoji}
+                      </span>
+                    )}
+                    <span className="skills__pill-name">{skill.name}</span>
                   </span>
                 ))}
               </div>

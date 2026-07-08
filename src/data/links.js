@@ -4,7 +4,7 @@ export const LINKS = {
   email: `mailto:${EMAIL}`,
   emailResume: `mailto:${EMAIL}?subject=${encodeURIComponent('Resume Request')}`,
   emailHire: `mailto:${EMAIL}?subject=${encodeURIComponent('Hire Me')}`,
-  linkedin: 'https://www.linkedin.com/in/ThivyaTharshini',
+  linkedin: 'https://www.linkedin.com/in/thivya-tharshini-b30918264/',
   github: 'https://github.com/thivya0050',
   portfolio: 'https://thivya0050.github.io/portfolioThivya/',
 };

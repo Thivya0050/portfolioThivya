@@ -23,7 +23,7 @@ const miniCards = [
   },
 ];
 
-const badges = ['📍 Selangor', '🌐 Remote-ready', '💼 RM 4,500+', '⚡ Available now'];
+const badges = ['📍 Selangor', '🌐 Remote-ready', '💼 RM 4,000+', '⚡ Available now'];
 
 function About() {
   return (
