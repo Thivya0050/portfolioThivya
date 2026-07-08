@@ -259,7 +259,7 @@ export const projects = [
     featured: false,
     categories: ['fullstack', 'saas'],
     mediaType: 'slideshow',
-    media: [posLogin, posCashier, posProducts, posOrders, posReports],
+    media: [posCashier, posLogin, posProducts, posOrders, posReports],
     description:
       'A modern, full-stack POS system built for Malaysian F&B and retail businesses. Replaces manual cash registers with a complete digital solution — live on Netlify with Supabase PostgreSQL as the backend.',
     highlights: [
