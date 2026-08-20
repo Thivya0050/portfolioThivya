@@ -52,23 +52,27 @@ export const projects = [
   },
   {
     id: 'robotic-arm',
-    title: '3D Robotic Arm',
+    title: '3D Robotic Arm — Gesture Control',
     subtitle: 'Hand Gesture Control System',
-    badge: 'Robotics · AI',
-    badgeColor: 'pink',
+    badge: 'AI · Self-Built',
+    badgeColor: 'purple',
     featured: true,
     categories: ['ai', 'python'],
     mediaType: 'video',
     media: robotVideo,
     description:
-      'Real-time 3D robotic arm controlled entirely by hand gestures — no physical hardware, just a webcam and Python. Full joint control: base rotation, shoulder, elbow, and gripper with real-time visual feedback and theme customization.',
+      'A real-time 3D robotic arm simulation controlled entirely by hand gestures via webcam — no physical hardware. Built in Python with MediaPipe hand landmark and face mesh tracking, PyOpenGL for 3D rendering, and a multithreaded architecture to keep gesture recognition and rendering decoupled.',
     highlights: [
-      'No hardware required — webcam only',
-      'MediaPipe hand landmark + face mesh detection',
-      'Real-time 3D simulation with visual feedback',
+      'Six distinct gestures mapped to individual joints: hand X/Y position → base rotation and shoulder angle, pinch distance → elbow bend, extended fingers → gripper open %, head tilt via FaceMesh → gripper fine control, fist → lock arm in place',
+      "Hierarchical kinematic chain (base → shoulder → elbow → gripper) implemented with stacked OpenGL transforms — each segment's matrix builds on the previous one",
+      'Multithreaded design: gesture recognition runs in a background thread to keep the rendering loop smooth',
     ],
-    tags: ['Python', 'MediaPipe', 'OpenCV', '3D Simulation', 'Computer Vision'],
-    repoNote: '🔒 Private repo — live demo available upon request',
+    limitation:
+      'OpenGL context initialization on Windows is order-sensitive and caused significant debugging time — a cross-platform rendering layer would be the first thing I\'d change in a rebuild.',
+    repoNote:
+      'Original codebase no longer available — inspired by the work of Muhammad Sharjeel (linkedin.com/in/sharjeelx3), built from scratch as an independent implementation. Demo video above.',
+    liveUrl: 'https://lnkd.in/p/gNbJ6WnX',
+    tags: ['Python', 'MediaPipe', 'PyOpenGL', 'OpenCV', 'Computer Vision', 'Multithreading'],
   },
   {
     id: 'sabas',
@@ -81,14 +85,63 @@ export const projects = [
     mediaType: 'slideshow',
     media: sabasImages,
     description:
-      'AI-powered attendance system with 98% facial recognition accuracy and real-time behavioral detection (yawning, attentiveness). Multi-role dashboards for admins, lecturers, and students with performance analytics.',
+      'An AI-powered attendance and behavior monitoring system for classrooms, using real-time facial recognition to mark attendance and computer vision to detect behaviors like yawning or inattentiveness. Built with Flask, OpenCV, and Firebase, with role-based dashboards for admins, lecturers, and students, plus automated Telegram alerts.',
     highlights: [
-      '98% facial recognition accuracy',
-      'IoT integration + Telegram alerts',
-      'Multi-role analytics dashboards',
+      'Facial recognition initially struggled with low light and off-angle faces — retrained the model on a more diverse image set and added automatic brightness/noise correction to improve robustness',
+      'IoT integration with real-time Telegram notifications for attendance and behavior alerts',
+      'Multi-role dashboards (admin, lecturer, student) with attendance and behavior analytics',
     ],
     tags: ['Python', 'Flask', 'OpenCV', 'IoT', 'Firebase', 'Face Recognition'],
-    repoNote: '🔒 Private repo — live demo available upon request',
+    limitation:
+      "Requires specific hardware (Raspberry Pi, camera module) and stable internet, and recognition accuracy depends on adequate lighting and a clear camera angle — a constraint I'd address with a lighting-normalization step in a rebuild.",
+    repoNote: 'Original codebase no longer available — the write-up above reflects the documented build, testing process, and known limitations from my final year project report.',
+  },
+  {
+    id: 'traffic-violation',
+    title: 'Traffic Violation & Speed Detection System',
+    categories: ['ai', 'python'],
+    description:
+      'An end-to-end computer vision pipeline that detects vehicles in traffic video, tracks them with YOLO26 + ByteTrack, estimates speed via perspective-aware auto-calibration, and flags overspeeding or wrong-direction violations through a Streamlit web UI.',
+    highlights: [
+      'Auto-calibration estimates a pixel-to-meter scale from lane markings using Canny edge detection and Hough Line Transform — no manual calibration clicks required',
+      'Perspective-aware speed smoothing per tracked vehicle, with a documented fallback heuristic when lane markings aren\'t detectable',
+      'Flags overspeeding and wrong-direction violations with a configurable limit and auto-inferred traffic flow',
+    ],
+    limitation:
+      'This is an approximation built for portfolio/demo use, not a substitute for surveyed reference measurements or radar-grade calibration — absolute accuracy depends on camera angle, height, lens distortion, and lane visibility.',
+    githubUrl: 'https://github.com/Thivya0050/traffic-violation-speed-detection-system',
+    tags: ['Python', 'YOLO26', 'ByteTrack', 'OpenCV', 'Streamlit', 'Computer Vision'],
+  },
+  {
+    id: 'bruno',
+    title: 'Bruno',
+    subtitle: 'Windows Voice Assistant',
+    categories: ['ai', 'python'],
+    description:
+      'A Windows system-tray voice assistant with push-to-talk activation, local speech-to-text, and Groq-powered LLM responses. Supports hands-free mode via voice activity detection, on-device screenshot/vision tools, local file access, and browser control through the Chrome DevTools Protocol.',
+    highlights: [
+      'Local Whisper transcription with a full audio pipeline — no cloud STT dependency for the core loop',
+      'Browser automation via CDP for agentic web tasks, with an audit log and confirmation step before actions execute',
+      'Encrypted API key storage using Windows DPAPI rather than plaintext config',
+    ],
+    limitation:
+      'Inspired by an existing open-source Bruno project — this is an independent implementation built from scratch, not a fork.',
+    githubUrl: 'https://github.com/Thivya0050/bruno',
+    tags: ['Python', 'Whisper', 'Groq', 'CDP', 'Voice Assistant'],
+  },
+  {
+    id: 'asset-model',
+    title: 'Asset Model Module',
+    categories: ['fullstack', 'nextjs'],
+    description:
+      'A standalone asset-tracking module (Next.js, Prisma, SQLite, NextAuth) built independently as an exploration of the asset-management domain — role-based access control, audit trails, and archive-instead-of-delete data handling.',
+    highlights: [
+      'Role-based access across Admin, Manager, Staff, and Viewer, each with different write/read permissions',
+      'Schema documented against what\'s confirmed vs. what\'s an intentional design assumption, rather than presented as a finished spec',
+      'Built with a swap-in path to PostgreSQL for production use',
+    ],
+    githubUrl: 'https://github.com/Thivya0050/asset-model',
+    tags: ['Next.js', 'TypeScript', 'Prisma', 'SQLite', 'NextAuth'],
   },
   {
     id: 'chatbot',
@@ -161,9 +214,9 @@ export const projects = [
     mediaType: 'video',
     media: pushupVideo,
     description:
-      'Fitness application using real-time AI pose detection to count push-ups and analyze exercise form with 95% accuracy using only a webcam.',
+      'Fitness application using real-time AI pose detection to count push-ups and analyze exercise form using a state-machine approach based on elbow angle thresholds — webcam only, no extra hardware.',
     highlights: [
-      '95% real-time pose detection accuracy',
+      "Real-time pose detection using MediaPipe's 33-point body landmark model",
       'Exercise form analysis',
       'Webcam-only, no hardware needed',
     ],

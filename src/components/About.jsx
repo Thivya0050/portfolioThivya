@@ -2,19 +2,19 @@ import './About.css';
 
 const miniCards = [
   {
-    icon: '🤖',
-    title: 'AI & Robotics',
-    text: 'Building intelligent systems that bridge software and physical engineering',
+    icon: '🧠',
+    title: 'AI/ML',
+    text: 'Computer vision, pose estimation, and LLM-integrated apps in Python',
+  },
+  {
+    icon: '💻',
+    title: 'Full-Stack',
+    text: 'Web apps and SaaS — React/Next.js, Node, Firebase, and PostgreSQL',
   },
   {
     icon: '🏢',
     title: 'Enterprise SaaS',
     text: 'Architected HubsMon — a multi-tenant real-time monitoring platform',
-  },
-  {
-    icon: '👁️',
-    title: 'Computer Vision',
-    text: '98% accuracy facial recognition, gesture detection, pose estimation',
   },
   {
     icon: '🌍',
@@ -23,7 +23,7 @@ const miniCards = [
   },
 ];
 
-const badges = ['📍 Selangor', '🌐 Remote-ready', '💼 RM 4,000+', '⚡ Available now'];
+const badges = ['📍 Selangor', '🌐 Remote-ready', '⚡ Available now'];
 
 function About() {
   return (
@@ -35,14 +35,13 @@ function About() {
         <div className="about__grid">
           <div className="about__text reveal">
             <p>
-              I&apos;m an AI &amp; Robotics Automation Engineer and Python Developer based in Selangor,
-              Malaysia — passionate about building intelligent systems that solve real problems at scale.
-              From building a 3D robotic arm controlled by hand gestures using just a webcam, to
-              architecting HubsMon — a full enterprise SaaS platform monitoring retail equipment across
-              multiple branches in real time — I thrive at the intersection of AI, software, and physical
-              systems. With nearly a year of industry experience and a Bachelor&apos;s in Software Engineering,
-              I&apos;m actively seeking remote full-time or part-time roles with legitimate companies providing
-              EPF &amp; SOCSO.
+              I&apos;m an AI/ML Engineer &amp; Full-Stack Developer based in Selangor, Malaysia. I build
+              computer vision systems, LLM-integrated apps, and full-stack SaaS — including HubsMon, a
+              multi-tenant platform that monitors retail equipment across branches in real time. Side
+              projects include facial recognition attendance (SABAS), Gemini-powered multimodal chat, and
+              a webcam-controlled 3D robotic arm. With nearly a year of industry experience and a
+              Bachelor&apos;s in Software Engineering, I&apos;m actively seeking remote full-time or
+              part-time roles with legitimate companies.
             </p>
             <div className="about__badges">
               {badges.map((b) => (

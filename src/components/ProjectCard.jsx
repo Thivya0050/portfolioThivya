@@ -130,6 +130,12 @@ function ProjectCard({ project }) {
           ))}
         </div>
 
+        {project.limitation && (
+          <div className="pcard-limitation">
+            <span className="pcard-limitation-label">Known limitation:</span> {project.limitation}
+          </div>
+        )}
+
         {(project.liveUrl || project.githubUrl || project.repoNote) && (
           <div className="pcard-links">
             {project.liveUrl && (

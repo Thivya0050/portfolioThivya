@@ -2,10 +2,9 @@ import { useEffect, useState } from 'react';
 import './Typewriter.css';
 
 const ROLES = [
-  'AI & Robotics Engineer',
+  'AI/ML Engineer & Full-Stack Developer',
   'Python Developer',
   'Computer Vision Specialist',
-  'System Integration Engineer',
   'SaaS Builder',
 ];
 

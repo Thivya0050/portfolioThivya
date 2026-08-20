@@ -49,8 +49,7 @@ function Contact() {
           </div>
 
           <div className="contact__cta">
-            <h3>DM me for my resume &amp; portfolio</h3>
-            <p>Expected Salary: RM 4,000 (Negotiable)</p>
+            <h3>Let&apos;s connect</h3>
             <button
               type="button"
               className="btn-primary contact-cta-btn"

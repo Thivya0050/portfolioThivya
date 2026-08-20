@@ -11,7 +11,7 @@ function Projects() {
     <section id="projects" className="projects section">
       <div className="container">
         <h2 className="section-title reveal">Projects</h2>
-        <p className="section-subtitle reveal">Real-world AI, robotics &amp; SaaS builds</p>
+        <p className="section-subtitle reveal">Real-world AI/ML, computer vision &amp; SaaS builds</p>
 
         <div className="projects__filters reveal">
           {FILTERS.map((f) => (

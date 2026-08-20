@@ -12,7 +12,6 @@ function Hero() {
   const tiltRef = useRef(null);
   const [imgError, setImgError] = useState(false);
 
-  const statAccuracy = useAnimatedCounter(98, { suffix: '%' });
   const statCerts = useAnimatedCounter(6, { suffix: '+' });
   const statProjects = useAnimatedCounter(8);
 
@@ -39,15 +38,16 @@ function Hero() {
           <div className="hero__content hero-text">
             <div className="hero__badge">
               <span className="hero__badge-dot" aria-hidden="true" />
-              Open to remote work · RM 4,500+
+              Open to remote work
             </div>
 
             <p className="hero__greeting">Hi, I&apos;m</p>
             <h1 className="hero__name gradient-text">Thivya Tharshini</h1>
             <Typewriter />
             <p className="hero__bio">
-              AI &amp; Robotics Automation Engineer building real-world intelligent systems — from
-              enterprise SaaS platforms to gesture-controlled robotics using just a webcam and Python.
+              AI/ML Engineer &amp; Full-Stack Developer building computer vision systems, LLM-integrated
+              apps, and full-stack SaaS — from real-time monitoring platforms to webcam-based pose and
+              gesture detection in Python.
             </p>
 
             <div className="hero__actions">
@@ -64,10 +64,6 @@ function Hero() {
             </div>
 
             <div className="hero__stats">
-              <div className="hero__stat">
-                <span className="hero__stat-value">{statAccuracy}</span>
-                <span className="hero__stat-label">Face recognition accuracy</span>
-              </div>
               <div className="hero__stat">
                 <span className="hero__stat-value">{statCerts}</span>
                 <span className="hero__stat-label">Certifications</span>
