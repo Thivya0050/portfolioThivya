@@ -8,6 +8,8 @@ export const skillGroups = [
       { name: 'OpenCV', devicon: 'devicon-opencv-plain colored' },
       { name: 'TensorFlow', devicon: 'devicon-tensorflow-original colored' },
       { name: 'Jupyter', devicon: 'devicon-jupyter-plain colored' },
+      { name: 'Claude API', emoji: '🧠' },
+      { name: 'Groq AI', emoji: '⚡' },
     ],
   },
   {
@@ -16,11 +18,18 @@ export const skillGroups = [
     skills: [
       { name: 'JavaScript', devicon: 'devicon-javascript-plain colored' },
       { name: 'React', devicon: 'devicon-react-original colored' },
+      { name: 'Next.js', devicon: 'devicon-nextjs-plain colored' },
+      { name: 'TypeScript', devicon: 'devicon-typescript-plain colored' },
+      { name: 'Tailwind CSS', devicon: 'devicon-tailwindcss-original colored' },
+      { name: 'Vue.js', devicon: 'devicon-vuejs-plain colored' },
+      { name: 'PHP', devicon: 'devicon-php-plain colored' },
+      { name: 'Laravel', devicon: 'devicon-laravel-original colored' },
       { name: 'Flask', devicon: 'devicon-flask-original colored' },
       { name: 'NodeJS', devicon: 'devicon-nodejs-plain colored' },
       { name: 'HTML5', devicon: 'devicon-html5-plain colored' },
       { name: 'CSS3', devicon: 'devicon-css3-plain colored' },
       { name: 'Firebase', devicon: 'devicon-firebase-plain colored' },
+      { name: 'Supabase', devicon: 'devicon-supabase-plain colored' },
     ],
   },
   {
