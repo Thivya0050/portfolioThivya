@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioThivya/static/css/main.e0d845a4.css",
-    "main.js": "/portfolioThivya/static/js/main.0b89fc8e.js",
+    "main.css": "/portfolioThivya/static/css/main.f164dca9.css",
+    "main.js": "/portfolioThivya/static/js/main.815df39b.js",
     "static/media/robort_arm_project.mp4": "/portfolioThivya/static/media/robort_arm_project.e4f7fd8b1b2c89b040b6.mp4",
     "static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.mp4": "/portfolioThivya/static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.0727c6b8786e739c5837.mp4",
     "static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.mp4": "/portfolioThivya/static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.c12bfcc19f575a2d4ebe.mp4",
@@ -14,7 +14,13 @@
     "static/media/pos_cashier.png": "/portfolioThivya/static/media/pos_cashier.d20b93abe830864f8421.png",
     "static/media/rainwater_optimizer_landscape.png": "/portfolioThivya/static/media/rainwater_optimizer_landscape.47de163230e3e2cabef6.png",
     "static/media/jejak1.png": "/portfolioThivya/static/media/jejak1.e6a51d776409c17d416f.png",
+    "static/media/familynest_1.jpg": "/portfolioThivya/static/media/familynest_1.7046005c29a2852f69e2.jpg",
+    "static/media/familynest_5.jpg": "/portfolioThivya/static/media/familynest_5.7046005c29a2852f69e2.jpg",
     "static/media/cerita_1.png": "/portfolioThivya/static/media/cerita_1.e7f785bfb1560a133f0c.png",
+    "static/media/familynest_2.jpg": "/portfolioThivya/static/media/familynest_2.17bf245345824956bf1e.jpg",
+    "static/media/familynest_4.jpg": "/portfolioThivya/static/media/familynest_4.58c9c5e720bf5cf92270.jpg",
+    "static/media/familynest_3.jpg": "/portfolioThivya/static/media/familynest_3.f677f29f2e9c3c479f0d.jpg",
+    "static/media/familynest_6.jpg": "/portfolioThivya/static/media/familynest_6.f677f29f2e9c3c479f0d.jpg",
     "static/media/kerja_cart1.png": "/portfolioThivya/static/media/kerja_cart1.a310520e1c90024c5fc0.png",
     "static/media/jejak_2.png": "/portfolioThivya/static/media/jejak_2.1d81b7008c888b4a6b89.png",
     "static/media/cerita_2.png": "/portfolioThivya/static/media/cerita_2.4c3bc375145472b02fa2.png",
@@ -30,11 +36,11 @@
     "static/media/pos_reports.png": "/portfolioThivya/static/media/pos_reports.207ee8b0244ee6afb2bf.png",
     "static/media/pos_orders.png": "/portfolioThivya/static/media/pos_orders.5917a53229ae3c989a8e.png",
     "index.html": "/portfolioThivya/index.html",
-    "main.e0d845a4.css.map": "/portfolioThivya/static/css/main.e0d845a4.css.map",
-    "main.0b89fc8e.js.map": "/portfolioThivya/static/js/main.0b89fc8e.js.map"
+    "main.f164dca9.css.map": "/portfolioThivya/static/css/main.f164dca9.css.map",
+    "main.815df39b.js.map": "/portfolioThivya/static/js/main.815df39b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0d845a4.css",
-    "static/js/main.0b89fc8e.js"
+    "static/css/main.f164dca9.css",
+    "static/js/main.815df39b.js"
   ]
 }
