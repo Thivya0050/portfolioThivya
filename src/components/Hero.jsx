@@ -45,9 +45,10 @@ function Hero() {
             <h1 className="hero__name gradient-text">Thivya Tharshini</h1>
             <Typewriter />
             <p className="hero__bio">
-              Full-Stack Developer | AI Engineer building computer vision systems, LLM-integrated
-              apps, and full-stack SaaS — from real-time monitoring platforms to webcam-based pose and
-              gesture detection in Python.
+              Full-Stack Developer and AI Engineer building real-world intelligent systems
+              — from enterprise SaaS platforms and production AI tools to gesture-controlled
+              robotics using just a webcam and Python. Founder of Nalam AI, Malaysia&apos;s first
+              all-in-one AI platform.
             </p>
 
             <div className="hero__actions">
