@@ -30,6 +30,7 @@ import posCashier from '../assets/pos_cashier.png';
 import posProducts from '../assets/pos_products.png';
 import posOrders from '../assets/pos_orders.png';
 import posReports from '../assets/pos_reports.png';
+import nalamImg from '../assets/nalama.png';
 
 export const hubsmonImages = [hubsmon1, hubsmon2, hubsmon3, hubsmon4, hubsmonMap];
 
@@ -79,4 +80,5 @@ export {
   posProducts,
   posOrders,
   posReports,
+  nalamImg,
 };

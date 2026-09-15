@@ -35,14 +35,16 @@ function About() {
         <div className="about__grid">
           <div className="about__text reveal">
             <p>
-              I&apos;m an AI/ML Engineer &amp; Full-Stack Developer based in Selangor, Malaysia. I build
-              computer vision systems, LLM-integrated apps, and full-stack SaaS — including HubsMon, a
-              multi-tenant platform that monitors retail equipment across branches in real time. I&apos;m
-              also the founder of Nalam AI, Malaysia&apos;s first all-in-one AI SaaS platform, which
-              I&apos;ve architected and built independently. Side projects include facial recognition
-              attendance (SABAS), Gemini-powered multimodal chat, and a webcam-controlled 3D robotic arm.
-              With nearly a year of industry experience and a Bachelor&apos;s in Software Engineering,
-              I&apos;m actively seeking remote full-time or part-time roles with legitimate companies.
+              Full-Stack Developer and AI Engineer based in Selangor, Malaysia, with over a
+              year of combined industry and internship experience and a Bachelor&apos;s in
+              Software Engineering. I build production-ready SaaS and AI systems — including
+              HubsMon, a multi-tenant platform monitoring retail equipment in real time, and
+              a full-stack POS system for Malaysian F&amp;B and retail businesses. I&apos;m also the
+              founder of Nalam AI, Malaysia&apos;s first all-in-one AI SaaS platform, built and
+              architected independently alongside full-time work. Other projects span AI
+              agents using Claude API and Gemini AI, facial recognition attendance (SABAS),
+              and a webcam-controlled 3D robotic arm. Actively seeking remote full-time or
+              part-time roles.
             </p>
             <div className="about__badges">
               {badges.map((b) => (
