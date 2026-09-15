@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    title: 'Founder & CEO',
+    title: 'Founder and CEO',
     company: 'Nalam AI (nalam.com.my)',
     period: '2025 – Present',
     type: 'Founder',
@@ -10,8 +10,8 @@ export const experiences = [
     tags: ['AI', 'SaaS', 'Founder', 'LLM Orchestration', 'Full-Stack'],
   },
   {
-    title: 'AI & Robotics Automation System Engineer',
-    company: 'Hubs Engineering',
+    title: 'System Engineer, AI and Robotics Automation',
+    company: "The Hub's Engineering Pte Ltd, Seri Kembangan, Selangor",
     period: 'Jan 2026 – Sep 2026',
     type: 'Full-time',
     color: '#7c3aed',
@@ -20,23 +20,23 @@ export const experiences = [
     tags: ['AI', 'Full-Stack', 'Next.js', 'SaaS', 'Automation'],
   },
   {
-    title: 'Python & AI Engineer (Intern)',
-    company: 'AES Academy, PJ',
+    title: 'Python and AI Engineer (Intern)',
+    company: 'AES Academy, Petaling Jaya, Selangor',
     period: 'Aug 2025 – Jan 2026',
     type: 'Internship',
     color: '#ec4899',
     description:
-      'Researched and developed a virtual education platform with AI-driven features. Designed and built AESAPP, a full-stack gig worker marketplace. Delivered production-ready features using Python, JavaScript, Firebase, and RESTful APIs within Agile sprint cycles.',
+      'Designed and built AESAPP, a full-stack gig worker marketplace with authentication, job posting, and real-time application tracking. Researched and developed a virtual education platform with AI-driven features. Delivered production-ready features using Python, JavaScript, Firebase, and RESTful APIs in Agile sprints.',
     tags: ['Python', 'AI', 'Firebase', 'JavaScript', 'Full-Stack'],
   },
   {
     title: 'Teacher',
-    company: 'BigApple, Botani, Ipoh',
+    company: 'BigApple, Botani, Ipoh, Perak',
     period: 'Feb 2021 – Nov 2021',
     type: 'Full-time',
     color: '#2dd4bf',
     description:
-      'Delivered structured lessons and built a positive learning environment. Collaborated with peers to plan and enhance educational programs.',
+      'Delivered structured lessons and collaborated with peers to enhance educational programs.',
     tags: ['Communication', 'Collaboration', 'Planning'],
   },
 ];
@@ -45,24 +45,23 @@ export const education = [
   {
     icon: '🎓',
     degree: 'Bachelor of Computer Science (Hons.) in Software Engineering',
-    school: 'UNISEL',
-    period: 'Apr 2022 – Sep 2026',
+    school: 'Universiti Selangor (UNISEL)',
+    period: 'Apr 2022 – Dec 2025 · CGPA: 3.25/4.00',
   },
   {
     icon: '📚',
     degree: 'Foundation in Information Technology',
-    school: 'UNISEL',
+    school: 'Universiti Selangor (UNISEL)',
     period: 'Nov 2021 – Jan 2022',
   },
 ];
 
 export const certifications = [
-  '🐍 Udemy Python',
-  '🔥 PyTorch',
-  '📊 KNIME',
-  '⚙️ Alteryx',
-  '📈 Power BI',
-  '☁️ Cloud Computing',
+  '🔥 PyTorch Deep Learning',
+  '📊 KNIME Certified',
+  '⚙️ Alteryx Certified',
+  '📈 Power BI Certified',
+  '☁️ Cloud Computing Certified',
 ];
 
 export const activities = [

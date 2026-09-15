@@ -36,6 +36,8 @@ export const projects = [
     badgeColor: 'purple',
     featured: true,
     categories: ['ai', 'saas', 'fullstack'],
+    mediaType: 'image',
+    media: [`${process.env.PUBLIC_URL}/images/nalama.png`],
     description:
       "Founded and built a multi-language AI SaaS platform offering text/chat generation, document creation, slide generation, image generation, and voice synthesis across Bahasa Malaysia, Tamil, and English. Architected a multi-provider LLM orchestration system with fallback redundancy for reliability at scale.",
     highlights: [

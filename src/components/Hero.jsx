@@ -45,7 +45,7 @@ function Hero() {
             <h1 className="hero__name gradient-text">Thivya Tharshini</h1>
             <Typewriter />
             <p className="hero__bio">
-              AI/ML Engineer &amp; Full-Stack Developer building computer vision systems, LLM-integrated
+              Full-Stack Developer | AI Engineer building computer vision systems, LLM-integrated
               apps, and full-stack SaaS — from real-time monitoring platforms to webcam-based pose and
               gesture detection in Python.
             </p>
