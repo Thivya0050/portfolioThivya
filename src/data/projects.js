@@ -119,6 +119,8 @@ export const projects = [
     id: 'traffic-violation',
     title: 'Traffic Violation & Speed Detection System',
     categories: ['ai', 'python'],
+    mediaType: 'image',
+    media: [`${process.env.PUBLIC_URL}/images/speedtrafic.png`],
     description:
       'An end-to-end computer vision pipeline that detects vehicles in traffic video, tracks them with YOLO26 + ByteTrack, estimates speed via perspective-aware auto-calibration, and flags overspeeding or wrong-direction violations through a Streamlit web UI.',
     highlights: [
