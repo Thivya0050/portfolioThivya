@@ -7,7 +7,6 @@ import aesappImg from '../assets/gig.png';
 import rainwaterImg from '../assets/rainwater_optimizer_landscape.png';
 import robotVideo from '../assets/robort_arm_project.mp4';
 import pushupVideo from '../assets/AI_Push-Up_Counter_2025-11-08_10-00-20.mp4';
-import emotionVideo from '../assets/Real-Time_Emotion_Detector_2025-11-06_14-58-48.mp4';
 import cerita1 from '../assets/cerita_1.png';
 import cerita2 from '../assets/cerita_2.png';
 import jejak1 from '../assets/jejak1.png';
@@ -57,7 +56,6 @@ export {
   rainwaterImg,
   robotVideo,
   pushupVideo,
-  emotionVideo,
   cerita1,
   cerita2,
   jejak1,
