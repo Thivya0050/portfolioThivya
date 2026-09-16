@@ -136,6 +136,8 @@ export const projects = [
     title: 'Bruno',
     subtitle: 'Windows Voice Assistant',
     categories: ['ai', 'python'],
+    mediaType: 'image',
+    media: [`${process.env.PUBLIC_URL}/images/bruno.png`],
     description:
       'A Windows system-tray voice assistant with push-to-talk activation, local speech-to-text, and Groq-powered LLM responses. Supports hands-free mode via voice activity detection, on-device screenshot/vision tools, local file access, and browser control through the Chrome DevTools Protocol.',
     highlights: [
