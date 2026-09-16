@@ -149,20 +149,6 @@ export const projects = [
     tags: ['Python', 'Whisper', 'Groq', 'CDP', 'Voice Assistant'],
   },
   {
-    id: 'asset-model',
-    title: 'Asset Model Module',
-    categories: ['fullstack', 'nextjs'],
-    description:
-      'A standalone asset-tracking module (Next.js, Prisma, SQLite, NextAuth) built independently as an exploration of the asset-management domain — role-based access control, audit trails, and archive-instead-of-delete data handling.',
-    highlights: [
-      'Role-based access across Admin, Manager, Staff, and Viewer, each with different write/read permissions',
-      'Schema documented against what\'s confirmed vs. what\'s an intentional design assumption, rather than presented as a finished spec',
-      'Built with a swap-in path to PostgreSQL for production use',
-    ],
-    githubUrl: 'https://github.com/Thivya0050/asset-model',
-    tags: ['Next.js', 'TypeScript', 'Prisma', 'SQLite', 'NextAuth'],
-  },
-  {
     id: 'chatbot',
     title: 'AI Multimodal Chatbot',
     subtitle: 'Voice, Gesture & Gemini AI',
