@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/portfolioThivya/static/css/main.f164dca9.css",
-    "main.js": "/portfolioThivya/static/js/main.ad528a94.js",
+    "main.js": "/portfolioThivya/static/js/main.f51eb126.js",
     "static/media/robort_arm_project.mp4": "/portfolioThivya/static/media/robort_arm_project.e4f7fd8b1b2c89b040b6.mp4",
     "static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.mp4": "/portfolioThivya/static/media/AI_Push-Up_Counter_2025-11-08_10-00-20.0727c6b8786e739c5837.mp4",
-    "static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.mp4": "/portfolioThivya/static/media/Real-Time_Emotion_Detector_2025-11-06_14-58-48.c12bfcc19f575a2d4ebe.mp4",
     "static/media/gig.png": "/portfolioThivya/static/media/gig.90010f6b4f8287db55f1.png",
     "static/media/sabas2.png": "/portfolioThivya/static/media/sabas2.84f210ca49c37b211fc3.png",
     "static/media/sabas4.png": "/portfolioThivya/static/media/sabas4.6ecf9cee9654201a2ef7.png",
@@ -38,10 +37,10 @@
     "static/media/pos_orders.png": "/portfolioThivya/static/media/pos_orders.5917a53229ae3c989a8e.png",
     "index.html": "/portfolioThivya/index.html",
     "main.f164dca9.css.map": "/portfolioThivya/static/css/main.f164dca9.css.map",
-    "main.ad528a94.js.map": "/portfolioThivya/static/js/main.ad528a94.js.map"
+    "main.f51eb126.js.map": "/portfolioThivya/static/js/main.f51eb126.js.map"
   },
   "entrypoints": [
     "static/css/main.f164dca9.css",
-    "static/js/main.ad528a94.js"
+    "static/js/main.f51eb126.js"
   ]
 }
