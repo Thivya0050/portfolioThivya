@@ -5,12 +5,6 @@ import sabas4 from '../assets/sabas4.png';
 import robotVideo from '../assets/robort_arm_project.mp4';
 import kerjaCart1 from '../assets/kerja_cart1.png';
 import kerjaCart2 from '../assets/kerja_cart2.png';
-import familyNest1 from '../assets/familynest_1.jpg';
-import familyNest2 from '../assets/familynest_2.jpg';
-import familyNest3 from '../assets/familynest_3.jpg';
-import familyNest4 from '../assets/familynest_4.jpg';
-import familyNest5 from '../assets/familynest_5.jpg';
-import familyNest6 from '../assets/familynest_6.jpg';
 import hubsmon1 from '../assets/main_hm.webp';
 import hubsmon2 from '../assets/2main_hm.webp';
 import hubsmon3 from '../assets/3main_hm.webp';
@@ -29,25 +23,10 @@ export const sabasImages = [sabas1, sabas2, sabas3, sabas4];
 
 export const kerjaCartImages = [kerjaCart1, kerjaCart2];
 
-export const familyNestImages = [
-  familyNest1,
-  familyNest2,
-  familyNest3,
-  familyNest4,
-  familyNest5,
-  familyNest6,
-];
-
 export {
   robotVideo,
   kerjaCart1,
   kerjaCart2,
-  familyNest1,
-  familyNest2,
-  familyNest3,
-  familyNest4,
-  familyNest5,
-  familyNest6,
   hubsmon1,
   hubsmon2,
   hubsmon3,

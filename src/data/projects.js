@@ -3,7 +3,6 @@ import {
   sabasImages,
   robotVideo,
   kerjaCartImages,
-  familyNestImages,
   posLogin,
   posCashier,
   posProducts,
@@ -144,30 +143,6 @@ export const projects = [
     ],
     repoNote: 'Original codebase no longer available — screenshots above reflect the designed and built prototype.',
     tags: ['Claude API', 'Mobile', 'AI', 'Budget Tracker'],
-  },
-  {
-    id: 'familynest',
-    title: 'FamilyNest',
-    subtitle: 'Family Super App',
-    badge: 'Full-Stack · Mobile',
-    badgeColor: 'blue',
-    featured: false,
-    categories: ['fullstack'],
-    mediaType: 'slideshow',
-    media: familyNestImages,
-    description:
-      'A family super app prototype built solo in React Native — messaging, live location sharing, meal planning, budget tracking, reminders, notes, and an SOS emergency button, all under one roof with real-time Firebase sync.',
-    highlights: [
-      'Real-time family group chat with SOS emergency call trigger, live location pins per family member, and push notifications via Expo + Cloud Functions',
-      'Shared household tools: weekly meal planner, monthly budget tracker with category breakdown, shared/private notes, and a family calendar with per-member reminder assignment',
-      'QR code family invites with deep linking, OTA updates via EAS Update, and role-based access control',
-    ],
-    limitation:
-      'Prototype built solo as a weekend project — not production-deployed. As I wrote when I shipped it: "Is it perfect? Not yet. But it\'s real, and I built every line of it."',
-    liveUrl:
-      'https://www.linkedin.com/posts/thivya-tharshini-b30918264_reactnative-firebase-mobileapp-activity-7449305877213528064-6SUw',
-    repoNote: 'Original codebase no longer available — screenshots above reflect the designed and built prototype.',
-    tags: ['React Native', 'Expo', 'Firebase', 'Mobile'],
   },
   {
     id: 'pos-system',
