@@ -37,6 +37,7 @@ export const projects = [
       'Multi-language support (BM, Tamil, English)',
       'Multi-provider LLM orchestration with fallback redundancy',
       'Text, document, slide, image, and voice generation tools',
+      '41+ registered users since early launch',
     ],
     tags: ['AI Orchestration', 'LLM', 'SaaS', 'Multi-tenant'],
     liveUrl: 'https://nalam.com.my',
