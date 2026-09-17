@@ -44,7 +44,7 @@
   border: 1px solid var(--border-purple-25);
   border-radius: 999px;
   font-size: 0.85rem;
-  margin-bottom: 0.65rem;
+  margin-bottom: 1.25rem;
   animation: badgePulse 2.5s ease infinite;
 }
 
@@ -54,19 +54,6 @@
   border-radius: 50%;
   background: #22c55e;
   animation: blink 1.5s ease infinite;
-}
-
-.hero__currently {
-  color: var(--gray);
-  font-size: 0.85rem;
-  line-height: 1.45;
-  max-width: 480px;
-  margin-bottom: 1.1rem;
-}
-
-.hero__currently-label {
-  color: var(--purple-light);
-  font-weight: 500;
 }
 
 .hero__greeting {

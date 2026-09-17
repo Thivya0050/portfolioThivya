@@ -40,10 +40,6 @@ function Hero() {
               <span className="hero__badge-dot" aria-hidden="true" />
               Open to remote work
             </div>
-            <p className="hero__currently">
-              <span className="hero__currently-label">Currently:</span> building out
-              new tools for Nalam AI, and open to full-time or part-time opportunities.
-            </p>
 
             <p className="hero__greeting">Hi, I&apos;m</p>
             <h1 className="hero__name gradient-text">Thivya Tharshini</h1>
