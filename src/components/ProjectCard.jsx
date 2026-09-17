@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import ImageLightbox from './ImageLightbox';
 import './ProjectCard.css';
 
 const BADGE_COLORS = {
@@ -19,10 +20,18 @@ function ProjectCard({ project }) {
   const videoRef = useRef(null);
   const slideshowRef = useRef(null);
   const [slideIndex, setSlideIndex] = useState(0);
+  const [lightboxSrc, setLightboxSrc] = useState(null);
 
   const resolvedMedia = getMediaList(project);
   const hasMedia = resolvedMedia.length > 0;
   const firstImage = resolvedMedia[0];
+
+  const closeLightbox = useCallback(() => setLightboxSrc(null), []);
+
+  const openLightbox = (src) => (e) => {
+    e.stopPropagation();
+    if (src) setLightboxSrc(src);
+  };
 
   useEffect(() => {
     return () => {
@@ -76,7 +85,8 @@ function ProjectCard({ project }) {
           <img
             src={resolvedMedia[slideIndex]}
             alt={`${project.title} preview`}
-            className="project-card__media-el"
+            className="project-card__media-el project-card__media-el--zoomable"
+            onClick={openLightbox(resolvedMedia[slideIndex])}
           />
         );
       }
@@ -88,7 +98,8 @@ function ProjectCard({ project }) {
         <img
           src={firstImage}
           alt={project.title}
-          className="project-card__media-el project-card__media-el--static"
+          className="project-card__media-el project-card__media-el--static project-card__media-el--zoomable"
+          onClick={openLightbox(firstImage)}
         />
       );
     }
@@ -103,6 +114,14 @@ function ProjectCard({ project }) {
       onMouseLeave={handleMouseLeave}
     >
       <div className="project-card__media">{renderMedia()}</div>
+
+      {lightboxSrc && (
+        <ImageLightbox
+          src={lightboxSrc}
+          alt={project.title}
+          onClose={closeLightbox}
+        />
+      )}
 
       <div className="project-card__body">
         <div className="project-card__meta">

@@ -32,7 +32,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.25s ease;
 }
 
 .project-card__media-el--static {
@@ -42,6 +42,15 @@
 
 .project-card:hover .project-card__media-el--static {
   transform: scale(1.05);
+}
+
+.project-card__media-el--zoomable {
+  cursor: pointer;
+}
+
+.project-card__media-el--zoomable:hover {
+  opacity: 0.9;
+  transform: scale(1.04);
 }
 
 .project-card__placeholder {
