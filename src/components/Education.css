@@ -7,14 +7,14 @@
 .education__card {
   padding: 1.5rem;
   background: var(--bg-card);
-  border: 1px solid rgba(124, 58, 237, 0.12);
+  border: 1px solid var(--border-purple);
   border-radius: var(--radius);
   transition: transform var(--transition), border-color var(--transition);
 }
 
 .education__card:hover {
   transform: translateY(-4px);
-  border-color: rgba(124, 58, 237, 0.35);
+  border-color: var(--border-purple-35);
 }
 
 .education__icon {

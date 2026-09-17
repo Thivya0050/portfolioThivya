@@ -8,10 +8,10 @@
   gap: 0.6rem;
   padding: 0.85rem 1.35rem;
   background: linear-gradient(135deg, var(--purple), var(--pink));
-  color: var(--white);
+  color: var(--on-accent);
   font-weight: 500;
   border-radius: 999px;
-  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.45);
+  box-shadow: var(--shadow-float);
   animation: float 3s ease-in-out infinite;
   transition: transform var(--transition), box-shadow var(--transition);
 }
@@ -28,7 +28,7 @@
 
 .floating-btn:hover {
   transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 12px 40px rgba(124, 58, 237, 0.55);
+  box-shadow: var(--shadow-float-hover);
 }
 
 @media (max-width: 768px) {

@@ -10,7 +10,7 @@
 }
 
 .about__text p {
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--text-body);
   font-size: 1.05rem;
   margin-bottom: 1.5rem;
 }
@@ -24,7 +24,7 @@
 .about__badge {
   padding: 0.45rem 0.9rem;
   background: var(--bg-card);
-  border: 1px solid rgba(124, 58, 237, 0.2);
+  border: 1px solid var(--border-purple-md);
   border-radius: 999px;
   font-size: 0.85rem;
 }
@@ -37,15 +37,15 @@
 
 .about__card {
   padding: 1.25rem;
-  background: rgba(13, 13, 26, 0.6);
+  background: var(--bg-elevated);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(124, 58, 237, 0.15);
+  border: 1px solid var(--border-purple-sm);
   border-radius: var(--radius);
   transition: border-color var(--transition), transform var(--transition);
 }
 
 .about__card:hover {
-  border-color: rgba(124, 58, 237, 0.4);
+  border-color: var(--border-purple-40);
   transform: translateY(-4px);
 }
 

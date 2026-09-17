@@ -7,7 +7,7 @@
 .certifications__block {
   padding: 1.5rem;
   background: var(--bg-card);
-  border: 1px solid rgba(124, 58, 237, 0.12);
+  border: 1px solid var(--border-purple);
   border-radius: var(--radius);
 }
 
@@ -20,9 +20,9 @@
 
 .certifications__block li {
   padding: 0.55rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--border-faint);
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-cert);
 }
 
 .certifications__block li:last-child {

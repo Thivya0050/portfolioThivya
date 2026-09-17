@@ -33,7 +33,7 @@
   height: 14px;
   border-radius: 50%;
   background: var(--job-color, var(--purple));
-  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.2);
+  box-shadow: 0 0 0 4px var(--dot-glow);
   flex-shrink: 0;
 }
 
@@ -50,14 +50,14 @@
 .timeline__card {
   padding: 1.25rem 1.5rem;
   background: var(--bg-card);
-  border: 1px solid rgba(124, 58, 237, 0.12);
+  border: 1px solid var(--border-purple);
   border-radius: var(--radius);
   transition: background var(--transition), border-color var(--transition);
 }
 
 .timeline__card:hover {
   background: var(--bg-hover);
-  border-color: rgba(124, 58, 237, 0.3);
+  border-color: var(--border-purple-30);
 }
 
 .timeline__header {

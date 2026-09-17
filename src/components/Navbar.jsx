@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { navLinks } from '../data/experience';
 import { sectionHref, SECTION_IDS } from '../data/links';
 import { handleSectionClick, scrollToSection } from '../utils/scrollToSection';
+import ThemeToggle from './ThemeToggle';
 import './Navbar.css';
 
 function Navbar() {
@@ -62,16 +63,19 @@ function Navbar() {
           ))}
         </nav>
 
-        <button
-          type="button"
-          className={`navbar__hamburger ${menuOpen ? 'navbar__hamburger--open' : ''}`}
-          aria-label="Toggle menu"
-          onClick={() => setMenuOpen((o) => !o)}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
+        <div className="navbar__actions">
+          <ThemeToggle />
+          <button
+            type="button"
+            className={`navbar__hamburger ${menuOpen ? 'navbar__hamburger--open' : ''}`}
+            aria-label="Toggle menu"
+            onClick={() => setMenuOpen((o) => !o)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
       </div>
     </header>
   );

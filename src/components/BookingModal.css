@@ -1,7 +1,7 @@
 .email-modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--bg-modal-overlay);
   z-index: 999;
   display: flex;
   align-items: center;
@@ -12,8 +12,8 @@
 
 .booking-modal {
   position: relative;
-  background: #0d0d1a;
-  border: 1px solid rgba(124, 58, 237, 0.3);
+  background: var(--bg-modal);
+  border: 1px solid var(--border-purple-30);
   border-radius: 20px;
   max-width: 480px;
   width: 90vw;
@@ -27,9 +27,9 @@
   top: 12px;
   right: 16px;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--modal-close);
   border: none;
-  color: white;
+  color: var(--text-primary);
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -43,7 +43,7 @@
 }
 
 .modal-close:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--modal-close-hover);
 }
 
 .booking-header {
@@ -56,20 +56,20 @@
   font-family: var(--font-display);
   font-size: 1.35rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text-primary);
   margin-bottom: 0.35rem;
 }
 
 .booking-header p {
   font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--text-soft);
 }
 
 .booking-tabs {
   display: flex;
   gap: 0.25rem;
   margin-bottom: 1.25rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .booking-tab {
@@ -77,7 +77,7 @@
   padding: 0.65rem 0.5rem;
   background: none;
   border: none;
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--text-faint);
   font-size: 0.88rem;
   font-weight: 500;
   cursor: pointer;
@@ -98,7 +98,7 @@
 }
 
 .booking-tab--active {
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .booking-tab--active::after {
@@ -135,7 +135,7 @@
 .booking-label {
   font-size: 0.78rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-soft);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-top: 0.35rem;
@@ -150,9 +150,9 @@
 .booking-pill {
   padding: 0.45rem 0.85rem;
   border-radius: 999px;
-  border: 1px solid rgba(124, 58, 237, 0.25);
-  background: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--border-purple-25);
+  background: var(--modal-surface);
+  color: var(--text-cert);
   font-size: 0.82rem;
   cursor: pointer;
   transition:
@@ -169,16 +169,16 @@
 .booking-pill--selected {
   background: linear-gradient(135deg, var(--purple), var(--pink));
   border-color: transparent;
-  color: #fff;
+  color: var(--on-accent);
 }
 
 .booking-input {
   width: 100%;
   padding: 0.7rem 0.9rem;
   border-radius: 10px;
-  border: 1px solid rgba(124, 58, 237, 0.2);
-  background: rgba(255, 255, 255, 0.04);
-  color: #fff;
+  border: 1px solid var(--border-purple-md);
+  background: var(--modal-surface);
+  color: var(--text-primary);
   font-family: inherit;
   font-size: 0.9rem;
   transition: border-color var(--transition);
@@ -190,9 +190,9 @@
 }
 
 .booking-select {
-  background: #1a1a2e;
-  color: #ffffff;
-  border: 1px solid rgba(124, 58, 237, 0.3);
+  background: var(--bg-input);
+  color: var(--text-primary);
+  border: 1px solid var(--border-purple-30);
   border-radius: 10px;
   padding: 12px 16px;
   width: 100%;
@@ -207,8 +207,8 @@
 }
 
 .booking-select option {
-  background-color: #1a1a2e;
-  color: #ffffff;
+  background-color: var(--bg-input);
+  color: var(--text-primary);
   padding: 10px;
 }
 
@@ -230,12 +230,12 @@
   border: none;
   border-radius: 999px;
   background: linear-gradient(135deg, var(--purple), var(--pink));
-  color: #fff;
+  color: var(--on-accent);
   font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
   transition: transform var(--transition), opacity var(--transition);
-  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.35);
+  box-shadow: var(--shadow-btn);
 }
 
 .booking-confirm:hover:not(:disabled) {
@@ -258,9 +258,9 @@
   width: 100%;
   padding: 0.85rem 1.25rem;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--border-medium);
   background: transparent;
-  color: #fff;
+  color: var(--text-primary);
   font-weight: 500;
   font-size: 0.95rem;
   cursor: pointer;
@@ -279,13 +279,13 @@
 .booking-direct {
   margin-top: 0.75rem;
   padding-top: 0.85rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--border-soft);
   text-align: center;
 }
 
 .booking-direct__title {
   font-size: 0.82rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--text-faint);
   margin-bottom: 0.5rem;
 }
 
@@ -303,7 +303,7 @@
 }
 
 .booking-direct__link:hover {
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .booking-success {
@@ -323,7 +323,7 @@
   justify-content: center;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--on-accent);
   animation: bookingCheckPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
@@ -345,7 +345,7 @@
 }
 
 .booking-success p {
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--text-soft);
   font-size: 0.9rem;
   margin-bottom: 1.25rem;
 }
@@ -358,7 +358,7 @@
   padding: 0.65rem 1.25rem;
   border-radius: 999px;
   background: rgba(29, 158, 117, 0.9);
-  color: #fff;
+  color: var(--on-accent);
   font-size: 0.88rem;
   font-weight: 500;
   z-index: 1000;

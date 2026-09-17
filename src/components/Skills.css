@@ -7,7 +7,7 @@
 .skills__group {
   padding: 1.35rem;
   background: var(--bg-card);
-  border: 1px solid rgba(124, 58, 237, 0.12);
+  border: 1px solid var(--border-purple);
   border-radius: var(--radius);
 }
 
@@ -38,8 +38,8 @@
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: #1a1a2e;
-  border: 1px solid rgba(124, 58, 237, 0.2);
+  background: var(--bg-skill-chip);
+  border: 1px solid var(--border-purple-md);
   border-radius: 10px;
   transition:
     background var(--transition),
@@ -60,12 +60,12 @@
 .skills__pill-name {
   font-size: 13px;
   font-weight: 500;
-  color: #fff;
+  color: var(--text-primary);
   white-space: nowrap;
 }
 
 .skills__pill:hover {
-  background: #22223a;
+  background: var(--bg-skill-chip-hover);
   border-color: var(--purple);
   transform: translateY(-2px);
 }

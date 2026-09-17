@@ -1,0 +1,93 @@
+.theme-bulb {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 36px;
+  height: 52px;
+  padding: 0;
+  margin: 0 0.15rem 0 0.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transform-origin: top center;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.theme-bulb__cord {
+  display: block;
+  width: 1.5px;
+  height: 14px;
+  background: linear-gradient(to bottom, var(--text-fainter), var(--text-muted));
+  border-radius: 1px;
+  margin-bottom: -1px;
+}
+
+.theme-bulb__icon {
+  display: block;
+  overflow: visible;
+}
+
+.theme-bulb__glass {
+  fill: transparent;
+  stroke: var(--text-muted);
+  transition: fill 0.3s ease, stroke 0.3s ease, filter 0.3s ease;
+}
+
+.theme-bulb__filament {
+  stroke: var(--text-fainter);
+  transition: stroke 0.3s ease;
+}
+
+.theme-bulb__base,
+.theme-bulb__screw {
+  fill: var(--text-muted);
+  stroke: var(--text-muted);
+  transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+.theme-bulb--on .theme-bulb__glass {
+  fill: #fbbf24;
+  stroke: #f59e0b;
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.75));
+}
+
+.theme-bulb--on .theme-bulb__filament {
+  stroke: #b45309;
+}
+
+.theme-bulb--on .theme-bulb__base,
+.theme-bulb--on .theme-bulb__screw {
+  fill: #a8a29e;
+  stroke: #78716c;
+}
+
+.theme-bulb--swing {
+  animation: bulbSwing 0.55s ease-in-out;
+}
+
+.theme-bulb:hover .theme-bulb__glass {
+  stroke: var(--purple-light);
+}
+
+.theme-bulb--on:hover .theme-bulb__glass {
+  stroke: #f59e0b;
+}
+
+@media (max-width: 768px) {
+  .theme-bulb {
+    margin-right: 0.35rem;
+    height: 48px;
+  }
+
+  .theme-bulb__cord {
+    height: 10px;
+  }
+
+  .theme-bulb__icon {
+    width: 18px;
+    height: 26px;
+  }
+}
