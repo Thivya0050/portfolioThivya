@@ -20,17 +20,21 @@ function ProjectCard({ project }) {
   const videoRef = useRef(null);
   const slideshowRef = useRef(null);
   const [slideIndex, setSlideIndex] = useState(0);
-  const [lightboxSrc, setLightboxSrc] = useState(null);
+  const [lightboxMedia, setLightboxMedia] = useState(null);
 
   const resolvedMedia = getMediaList(project);
   const hasMedia = resolvedMedia.length > 0;
   const firstImage = resolvedMedia[0];
 
-  const closeLightbox = useCallback(() => setLightboxSrc(null), []);
+  const closeLightbox = useCallback(() => setLightboxMedia(null), []);
 
-  const openLightbox = (src) => (e) => {
+  const openLightbox = (src, type = 'image') => (e) => {
     e.stopPropagation();
-    if (src) setLightboxSrc(src);
+    if (!src) return;
+    if (type === 'video' && videoRef.current) {
+      videoRef.current.pause();
+    }
+    setLightboxMedia({ src, type });
   };
 
   useEffect(() => {
@@ -72,7 +76,8 @@ function ProjectCard({ project }) {
             muted
             playsInline
             loop
-            className="project-card__media-el"
+            className="project-card__media-el project-card__media-el--zoomable"
+            onClick={openLightbox(project.media, 'video')}
           />
         );
       }
@@ -115,10 +120,12 @@ function ProjectCard({ project }) {
     >
       <div className="project-card__media">{renderMedia()}</div>
 
-      {lightboxSrc && (
+      {lightboxMedia && (
         <ImageLightbox
-          src={lightboxSrc}
+          src={lightboxMedia.src}
           alt={project.title}
+          mediaType={lightboxMedia.type}
+          loop={lightboxMedia.type === 'video'}
           onClose={closeLightbox}
         />
       )}
