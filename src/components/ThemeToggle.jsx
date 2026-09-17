@@ -55,31 +55,34 @@ function ThemeToggle() {
       <svg
         className="theme-bulb__icon"
         viewBox="0 0 24 36"
-        width="22"
-        height="32"
+        width="40"
+        height="58"
         aria-hidden="true"
       >
-        <path
-          className="theme-bulb__filament"
-          d="M9.5 14.5c0-1.2.6-2.2 1.5-2.8.9.6 1.5 1.6 1.5 2.8"
-          fill="none"
-          strokeWidth="1.2"
-          strokeLinecap="round"
-        />
-        <path
-          className="theme-bulb__glass"
-          d="M7 13.5c0-3.6 2.2-6.5 5-6.5s5 2.9 5 6.5c0 2.4-1.1 3.8-2 5.2-.5.8-.8 1.5-.8 2.3H9.8c0-.8-.3-1.5-.8-2.3-.9-1.4-2-2.8-2-5.2z"
-          strokeWidth="1.6"
-          strokeLinejoin="round"
-        />
-        <rect className="theme-bulb__base" x="9.2" y="21" width="5.6" height="2.2" rx="0.6" />
-        <path
-          className="theme-bulb__screw"
-          d="M10 24h4M10.4 25.6h3.2M11 27h2"
-          fill="none"
-          strokeWidth="1.2"
-          strokeLinecap="round"
-        />
+        {/* Rotate so screw/base attaches to the cord and glass hangs below */}
+        <g transform="rotate(180 12 18)">
+          <path
+            className="theme-bulb__filament"
+            d="M9.5 14.5c0-1.2.6-2.2 1.5-2.8.9.6 1.5 1.6 1.5 2.8"
+            fill="none"
+            strokeWidth="1.2"
+            strokeLinecap="round"
+          />
+          <path
+            className="theme-bulb__glass"
+            d="M7 13.5c0-3.6 2.2-6.5 5-6.5s5 2.9 5 6.5c0 2.4-1.1 3.8-2 5.2-.5.8-.8 1.5-.8 2.3H9.8c0-.8-.3-1.5-.8-2.3-.9-1.4-2-2.8-2-5.2z"
+            strokeWidth="1.6"
+            strokeLinejoin="round"
+          />
+          <rect className="theme-bulb__base" x="9.2" y="21" width="5.6" height="2.2" rx="0.6" />
+          <path
+            className="theme-bulb__screw"
+            d="M10 24h4M10.4 25.6h3.2M11 27h2"
+            fill="none"
+            strokeWidth="1.2"
+            strokeLinecap="round"
+          />
+        </g>
       </svg>
     </button>
   );

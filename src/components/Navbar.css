@@ -42,8 +42,8 @@
 
 .navbar__actions {
   display: flex;
-  align-items: center;
-  gap: 0.25rem;
+  align-items: flex-start;
+  gap: 0.35rem;
 }
 
 .navbar__link {
@@ -70,6 +70,8 @@
   gap: 5px;
   width: 28px;
   padding: 4px;
+  align-self: center;
+  margin-top: 0.35rem;
 }
 
 .navbar__hamburger span {
