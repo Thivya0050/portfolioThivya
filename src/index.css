@@ -9,9 +9,8 @@
   --teal: #2dd4bf;
   --white: #ffffff;
   --gray: rgba(255, 255, 255, 0.5);
-  --font-display: 'Alumni Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body: 'Alumni Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-logo: 'Syne', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
   --section-pad: clamp(4rem, 8vw, 6rem);
   --container: min(1140px, 92vw);
   --radius: 16px;
