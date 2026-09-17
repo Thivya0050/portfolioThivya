@@ -144,6 +144,28 @@
   margin-bottom: 0.3rem;
 }
 
+.pcard-testimonial {
+  margin: 0 0 1rem;
+  padding: 0.55rem 0 0.55rem 0.75rem;
+  border-left: 2px solid var(--border-purple-md);
+  max-width: 100%;
+}
+
+.pcard-testimonial__quote {
+  margin: 0;
+  font-size: 0.78rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--text-soft);
+}
+
+.pcard-testimonial__attr {
+  margin-top: 0.35rem;
+  font-size: 0.7rem;
+  font-style: normal;
+  color: var(--text-faint);
+}
+
 .project-card__tags {
   display: flex;
   flex-wrap: wrap;

@@ -148,6 +148,13 @@ function ProjectCard({ project }) {
           ))}
         </ul>
 
+        {project.testimonial && (
+          <blockquote className="pcard-testimonial">
+            <p className="pcard-testimonial__quote">&ldquo;{project.testimonial.quote}&rdquo;</p>
+            <footer className="pcard-testimonial__attr">— {project.testimonial.attribution}</footer>
+          </blockquote>
+        )}
+
         <div className="project-card__tags">
           {project.tags.map((tag) => (
             <span key={tag} className="project-card__tag">

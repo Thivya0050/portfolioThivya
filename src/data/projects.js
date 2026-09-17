@@ -39,6 +39,11 @@ export const projects = [
       'Text, document, slide, image, and voice generation tools',
       '41+ registered users since early launch',
     ],
+    testimonial: {
+      quote:
+        "I've been using Nalam AI mainly for drafting docs, clearing out emails, and formatting files. It saves me a lot of time.",
+      attribution: 'Nalam AI user',
+    },
     tags: ['AI Orchestration', 'LLM', 'SaaS', 'Multi-tenant'],
     liveUrl: 'https://nalam.com.my',
   },
