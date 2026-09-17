@@ -22,7 +22,7 @@
 }
 
 .navbar__logo {
-  font-family: var(--font-display);
+  font-family: var(--font-logo);
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--white);
