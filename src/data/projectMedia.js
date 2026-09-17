@@ -2,15 +2,7 @@ import sabas1 from '../assets/sabas1.png';
 import sabas2 from '../assets/sabas2.png';
 import sabas3 from '../assets/sabas3.png';
 import sabas4 from '../assets/sabas4.png';
-import chatboxImg from '../assets/ai_chatbox.png';
-import aesappImg from '../assets/gig.png';
-import rainwaterImg from '../assets/rainwater_optimizer_landscape.png';
 import robotVideo from '../assets/robort_arm_project.mp4';
-import pushupVideo from '../assets/AI_Push-Up_Counter_2025-11-08_10-00-20.mp4';
-import cerita1 from '../assets/cerita_1.png';
-import cerita2 from '../assets/cerita_2.png';
-import jejak1 from '../assets/jejak1.png';
-import jejak2 from '../assets/jejak_2.png';
 import kerjaCart1 from '../assets/kerja_cart1.png';
 import kerjaCart2 from '../assets/kerja_cart2.png';
 import familyNest1 from '../assets/familynest_1.jpg';
@@ -37,10 +29,6 @@ export const sabasImages = [sabas1, sabas2, sabas3, sabas4];
 
 export const kerjaCartImages = [kerjaCart1, kerjaCart2];
 
-export const jejakImages = [jejak1, jejak2];
-
-export const ceritaImages = [cerita1, cerita2];
-
 export const familyNestImages = [
   familyNest1,
   familyNest2,
@@ -51,15 +39,7 @@ export const familyNestImages = [
 ];
 
 export {
-  chatboxImg,
-  aesappImg,
-  rainwaterImg,
   robotVideo,
-  pushupVideo,
-  cerita1,
-  cerita2,
-  jejak1,
-  jejak2,
   kerjaCart1,
   kerjaCart2,
   familyNest1,

@@ -48,12 +48,6 @@ export const education = [
     school: 'Universiti Selangor (UNISEL)',
     period: 'Apr 2022 – Dec 2025 · CGPA: 3.25/4.00',
   },
-  {
-    icon: '📚',
-    degree: 'Foundation in Information Technology',
-    school: 'Universiti Selangor (UNISEL)',
-    period: 'Nov 2021 – Jan 2022',
-  },
 ];
 
 export const certifications = [
