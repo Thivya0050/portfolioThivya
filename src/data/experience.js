@@ -6,7 +6,7 @@ export const experiences = [
     type: 'Founder',
     color: '#a855f7',
     description:
-      "Founded and built Malaysia's first all-in-one AI platform, offering text and chat generation, document creation, slide generation, image generation, and voice synthesis across Bahasa Malaysia, Tamil, and English. Architected a multi-provider LLM orchestration system with fallback redundancy across text, vision, and image-generation models for reliability at scale. Self-directed venture built and maintained independently alongside full-time work; owns full product, technical, and business direction.",
+      "Founded and built Malaysia's first all-in-one AI platform, offering text and chat generation, document creation, slide generation, image generation, and voice synthesis across Bahasa Malaysia, Tamil, and English. Architected a multi-provider LLM orchestration system with fallback redundancy across text, vision, and image-generation models for reliability at scale. Self-directed venture built and maintained independently alongside full-time work; owns full product, technical, and business direction. Currently in early-stage growth — Stripe billing is integrated, with a free 1-year access period in place while I focus on product refinement and user growth ahead of monetization.",
     tags: ['AI', 'SaaS', 'Founder', 'LLM Orchestration', 'Full-Stack'],
   },
   {
