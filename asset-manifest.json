@@ -1,32 +1,36 @@
 {
   "files": {
     "main.css": "/portfolioThivya/static/css/main.909cb0e7.css",
-    "main.js": "/portfolioThivya/static/js/main.f269fe8d.js",
+    "main.js": "/portfolioThivya/static/js/main.adbbc9fe.js",
     "static/media/robort_arm_project.mp4": "/portfolioThivya/static/media/robort_arm_project.e4f7fd8b1b2c89b040b6.mp4",
+    "static/media/pos_home.png": "/portfolioThivya/static/media/pos_home.8ac00b351d6691ba471b.png",
     "static/media/sabas2.png": "/portfolioThivya/static/media/sabas2.84f210ca49c37b211fc3.png",
     "static/media/sabas4.png": "/portfolioThivya/static/media/sabas4.6ecf9cee9654201a2ef7.png",
     "static/media/sabas3.png": "/portfolioThivya/static/media/sabas3.6161ae3179503c0ddf84.png",
     "static/media/profile.jpg": "/portfolioThivya/static/media/profile.8a33cde5ca7fca789e72.jpg",
     "static/media/nalama.png": "/portfolioThivya/static/media/nalama.f3ffc79b46dea1dd6c36.png",
     "static/media/sabas1.png": "/portfolioThivya/static/media/sabas1.86e294a43effd2a1997d.png",
-    "static/media/pos_cashier.png": "/portfolioThivya/static/media/pos_cashier.d20b93abe830864f8421.png",
+    "static/media/pos_login.png": "/portfolioThivya/static/media/pos_login.af8395a22c6423533cec.png",
+    "static/media/pos_fulfillment.png": "/portfolioThivya/static/media/pos_fulfillment.cba9cbfd8c6556eb9189.png",
+    "static/media/pos_payment.png": "/portfolioThivya/static/media/pos_payment.6395ba8204d64d81a05a.png",
+    "static/media/pos_receipt.png": "/portfolioThivya/static/media/pos_receipt.ef8933adfe2c431832ca.png",
+    "static/media/pos_shop.png": "/portfolioThivya/static/media/pos_shop.13e9d3f191a65025bb1d.png",
+    "static/media/pos_products.png": "/portfolioThivya/static/media/pos_products.b2a5481f9e6176abeb1a.png",
     "static/media/kerja_cart1.png": "/portfolioThivya/static/media/kerja_cart1.a310520e1c90024c5fc0.png",
+    "static/media/pos_member.png": "/portfolioThivya/static/media/pos_member.0b45cbc2199925e25246.png",
     "static/media/kerja_cart2.png": "/portfolioThivya/static/media/kerja_cart2.1bcb3004bf6736160f2a.png",
+    "static/media/pos_cart.png": "/portfolioThivya/static/media/pos_cart.e7594a0e854ee8072283.png",
     "static/media/2main_hm.webp": "/portfolioThivya/static/media/2main_hm.4e6508cadecd4bb9ea2f.webp",
     "static/media/3main_hm.webp": "/portfolioThivya/static/media/3main_hm.4e6508cadecd4bb9ea2f.webp",
     "static/media/4_hm.webp": "/portfolioThivya/static/media/4_hm.4e6508cadecd4bb9ea2f.webp",
     "static/media/main_hm.webp": "/portfolioThivya/static/media/main_hm.4e6508cadecd4bb9ea2f.webp",
     "static/media/map_hm.webp": "/portfolioThivya/static/media/map_hm.4e6508cadecd4bb9ea2f.webp",
-    "static/media/pos_products.png": "/portfolioThivya/static/media/pos_products.58095735fcc660526639.png",
-    "static/media/pos_login.png": "/portfolioThivya/static/media/pos_login.fc649e6c5d996108810a.png",
-    "static/media/pos_reports.png": "/portfolioThivya/static/media/pos_reports.207ee8b0244ee6afb2bf.png",
-    "static/media/pos_orders.png": "/portfolioThivya/static/media/pos_orders.5917a53229ae3c989a8e.png",
     "index.html": "/portfolioThivya/index.html",
     "main.909cb0e7.css.map": "/portfolioThivya/static/css/main.909cb0e7.css.map",
-    "main.f269fe8d.js.map": "/portfolioThivya/static/js/main.f269fe8d.js.map"
+    "main.adbbc9fe.js.map": "/portfolioThivya/static/js/main.adbbc9fe.js.map"
   },
   "entrypoints": [
     "static/css/main.909cb0e7.css",
-    "static/js/main.f269fe8d.js"
+    "static/js/main.adbbc9fe.js"
   ]
 }
