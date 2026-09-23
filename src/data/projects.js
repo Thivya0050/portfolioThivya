@@ -3,11 +3,7 @@ import {
   sabasImages,
   robotVideo,
   kerjaCartImages,
-  posLogin,
-  posCashier,
-  posProducts,
-  posOrders,
-  posReports,
+  posImages,
   nalamImg,
 } from './projectMedia';
 
@@ -159,7 +155,7 @@ export const projects = [
     featured: false,
     categories: ['fullstack', 'saas'],
     mediaType: 'slideshow',
-    media: [posCashier, posLogin, posProducts, posOrders, posReports],
+    media: posImages,
     description:
       'A modern, full-stack POS system built for Malaysian F&B and retail businesses. Replaces manual cash registers with a complete digital solution — live on Netlify with Supabase PostgreSQL as the backend.',
     highlights: [

@@ -10,11 +10,15 @@ import hubsmon2 from '../assets/2main_hm.webp';
 import hubsmon3 from '../assets/3main_hm.webp';
 import hubsmon4 from '../assets/4_hm.webp';
 import hubsmonMap from '../assets/map_hm.webp';
+import posHome from '../assets/pos_home.png';
 import posLogin from '../assets/pos_login.png';
-import posCashier from '../assets/pos_cashier.png';
+import posMember from '../assets/pos_member.png';
+import posFulfillment from '../assets/pos_fulfillment.png';
+import posShop from '../assets/pos_shop.png';
 import posProducts from '../assets/pos_products.png';
-import posOrders from '../assets/pos_orders.png';
-import posReports from '../assets/pos_reports.png';
+import posCart from '../assets/pos_cart.png';
+import posPayment from '../assets/pos_payment.png';
+import posReceipt from '../assets/pos_receipt.png';
 import nalamImg from '../assets/nalama.png';
 
 export const hubsmonImages = [hubsmon1, hubsmon2, hubsmon3, hubsmon4, hubsmonMap];
@@ -22,6 +26,18 @@ export const hubsmonImages = [hubsmon1, hubsmon2, hubsmon3, hubsmon4, hubsmonMap
 export const sabasImages = [sabas1, sabas2, sabas3, sabas4];
 
 export const kerjaCartImages = [kerjaCart1, kerjaCart2];
+
+export const posImages = [
+  posHome,
+  posLogin,
+  posMember,
+  posFulfillment,
+  posShop,
+  posProducts,
+  posCart,
+  posPayment,
+  posReceipt,
+];
 
 export {
   robotVideo,
@@ -32,10 +48,5 @@ export {
   hubsmon3,
   hubsmon4,
   hubsmonMap,
-  posLogin,
-  posCashier,
-  posProducts,
-  posOrders,
-  posReports,
   nalamImg,
 };
